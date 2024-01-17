@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: ratings-api
-          image: kevin1acr.azurecr.io/ratings-api:latest # IMPORTANT: update with your own repository
+          image: kevin1acr.azurecr.io/mslearn-aks-workshop-ratings-api:latest # IMPORTANT: update with your own repository
           securityContext:
             privileged: true
           imagePullSecrets:
